@@ -1,0 +1,29 @@
+#main_container {
+    width: 30em;
+    padding: 10px; 
+}
+
+#header_container {
+    width: 100%;
+    height: 2em;
+}
+
+#translate_area_container {
+    width: 100%;
+    height: 5em; 
+}
+
+#translate_area {
+    width: 100%;
+    height: 70%;
+    margin-bottom: 5px;
+}
+
+#status_bar_container {
+    width: 100%;
+    height: 5em;
+}
+
+#footer_container {
+    width: 100%;
+}

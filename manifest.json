@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Poliglot",
+    "version": "1.0",
+    "permissions": ["declarativeContent", "storage"],
+    "content_scripts": [
+        {
+          "matches": [
+            "<all_urls>"
+          ],
+          "js": ["index.js"]
+        }
+    ],
+    "background": {
+        "scripts": ["./src/background/background.js"],
+        "persistent": false
+    },
+    "page_action" : {
+        "default_popup" : "./src/views/mainPopup.html"
+    }
+
+}
